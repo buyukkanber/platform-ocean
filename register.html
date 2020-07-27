@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Become A Dolphin</title>
+	<link rel="stylesheet" type="text/css" href="styleform.css">
+</head>
+<body id="gradient">
+	<div>
+		<div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="signin.html" >Enter The Ocean</a></li>
+				<li><a class="active" href="#register">Become A Dolphin</a></li>
+				<li><a href="aster.html">Asteroidea</a></li>
+				<li style="float:right"><a href="about.html">About</a></li>
+			</ul>	
+		</div>
+	</div>
+	<br>		
+	<!-- <div class="container">	 -->
+	<div class="container">
+	  <form method="POST"> 	<!-- <form method="GET"> // if we use GET instead of POST, all the filled informatiomn at the form can be seen on the URL bar... -->
+	  	<div class="row">
+	      <div class="col-25">
+	        <label for="fname">Dolpnin Name</label>
+	      </div>
+	      <div class="col-75">
+	        <input type="text" id="fname" name="Dolpninname" placeholder="Your new dolphin name..">
+	      </div>
+	    </div>
+	    <div class="row">
+	      <div class="col-25">
+	        <label for="fname">First Name</label>
+	      </div>
+	      <div class="col-75">
+	        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+	      </div>
+	    </div>
+	    <div class="row">
+	      <div class="col-25">
+	        <label for="lname">Last Name</label>
+	      </div>
+	      <div class="col-75">
+	        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	      </div>
+	    </div>
+	    <div class="row">
+	      <div class="col-25">
+	        <label for="lname">Email</label>
+	      </div>
+	      <div class="col-75">
+	        <input type="Email" id="lname" required name="Email">
+	      </div>
+	    </div>	
+	    <div class="row">
+	      <div class="col-25">
+	        <label for="lname">Password</label>
+	      </div>
+	      <div class="col-75">
+	        <input type="Password" id="lname"  min="7" name="Password">
+	      </div>
+	    </div>
+	    <div class="row">	
+	      <div class="col-25">
+	        <label for="lname">Birthday</label>
+	      </div>
+	      <div class="col-75">
+	        <input type="date" id="lname">
+	      </div>
+	    </div>
+
+	    <div class="row">
+	      <div class="col-25">
+	        <label for="lname">Gender</label>
+	      </div>
+	      <div class="col-75">
+	      	<label class="checkdot">XX
+			  <input type="radio" name="Gender">
+			  <span class="checkmark"></span>
+			</label>
+			<label class="checkdot">XY
+			  <input type="radio" name="Gender">
+			  <span class="checkmark"></span>
+			</label>	
+	       </div>
+	    </div>
+
+	    <div> <!-- Color Selects-->
+	      <div class="col-25">
+	        <label for="Colors">Colors</label>
+	      </div>
+	      <div class="col-75">
+	    	<input class="color1" type="color" name="color1" value="#B3F99A">
+			<input class="color2" type="color" name="color2" value="#82EAEA">
+		  </div>
+		  <script type="text/javascript" src="scriptform.js"></script>
+		</div>	
+
+	    <div class="row"> <!-- Ocean Select-->
+	      <div class="col-25">
+	        <label for="Ocean">Ocean</label>
+	      </div>
+	      <div class="col-75">
+	        <select id="Ocean:" name="Ocean:">
+	          	<option value="Arctic">Arctic Ocean</option>
+	          	<option value="Atlantic">Atlantic Ocean</option>
+				<option value="Pasific">Pasific Ocean</option>
+				<option value="Indian">Indian Ocean</option>
+	        </select>
+	      </div>
+	    </div>
+
+	    <div class="row"> <!-- Surfboard Select-->
+	      <div class="col-25">
+	        <label for="Ocean">Surfboard</label>
+	      </div>
+	      <div class="col-75">
+	        <select id="Surfboard:" name="Surfboard:">
+	          	<option value="Nezzy">Nezzy</option>
+	          	<option value="Neilson">Neilson</option>
+				<option value="Aloha">Aloha</option>
+				<option value="Beach Beat">Beach Beat</option>
+				<option value="Rusty">Rusty</option>
+				<option value="Town and Country">Town and Country</option>
+				<option value="Superbrand">Superbrand</option>
+				<option value="Stacey Surf">Stacey Surf</option>	
+	        </select>
+	      </div>
+	    </div>
+	    <div class="row">
+	     <br>
+	 	 <input type="submit" value="Register">
+	 	 <br>
+	 	 <input type="reset">
+	    </div>
+	  </form>
+	  <br>	
+	</div>
+	<br>
+	<iframe class="center" src="https://www.youtube.com/embed/X3RDuQd5VlU?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe> <!-- ?autoplay=1 allows video to start automatically without click to play button-->
+</body>
+</html>

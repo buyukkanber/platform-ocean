@@ -1,0 +1,68 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/*Navigation Bar CSS*/
+ul {
+  list-style-type: none;
+  margin: 0px;
+  margin-top: 0px;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+  cursor: pointer; /*THIS IS VOILA!! with putting this, we get the pointer cruser over "Enter The Ocean" Nav bar */
+}
+
+
+li a.active {
+  color: white;
+  background-color: #0EACD9;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.in {
+  cursor: pointer;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+/*responsive pragraph*/
+p { 
+  text-align: center;
+  width: 90%;
+  height: auto;
+  margin: auto;
+ padding: 10px;
+}
+
+.ghost {
+  color: white;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Platform Ocean</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> <!-- adds a browser tab icon (favicon) for the website -->
+</head>
+<body>
+	<img class="logo" src="images/boards.jpg" alt="ocean" class="center">
+	<!-- <h1>Platform Ocean</h1> -->
+	
+	<ul>
+		<li><a class="active" href="#home">Home</a></li>
+		<li><a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Enter The Ocean</a></li>
+			<div id="id01" class="modal">		  
+			  <form class="modal-content animate" action="#" method="post">	
+				<div class="imgcontainer">
+				    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+				</div>
+
+			    <div class="container2">
+			      <label for="uname"><b>Dolphin Name</b></label>
+			      <input type="text" placeholder="Enter Dolphin Name" name="uname" required>
+			
+			      <label for="psw"><b>Password</b></label>
+			      <input type="password" placeholder="Enter Password" name="psw" required>
+			        
+			      <button type="submit">Login</button>
+			      <label>
+			        <input type="checkbox" checked="checked" name="remember"> Remember me
+			      </label>
+			    </div>
+			
+			    <div class="container2" style="background-color:#f1f1f1">
+			      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+			      <span class="psw"> Forgot <a href="#">password?</a></span>
+			    </div>			    
+			  </form>
+			</div>
+		
+			<script>
+			// Get the modal
+			var modal = document.getElementById('id01');
+			// When the user clicks anywhere outside of the modal,close it
+			window.onclick = function(event) {
+			    if (event.target == modal) {
+			        modal.style.display = "none";
+			    }
+			}
+			</script>
+
+		<!-- <li><a href="signin.html" >Morphin Time</a></li> -->
+		<li><a href="register.html">Become A Dolphin</a></li>
+		<li><a href="aster.html">Asteroidea</a></li>
+		<li style="float:right"><a href="about.html">About</a></li>
+	</ul>
+	<br>
+	<div class="container">
+		<a href="oceans\arctic.html"><img class="responsive" src="images\waver.jpg" alt="waver"></a>
+		<a href="oceans\atlantic.html"><img class="responsive" src="images\palm.jpg" alt="palm"></a>
+		<a href="oceans\pasific.html"><img class="responsive" src="images\surfer.jpg" alt="surfer"></a>
+		<a href="oceans\indian.html"><img class="responsive" src="images\mamals.jpg" alt="mamals"></a>
+	<br>	
+</body>
+</html>
+  
+
